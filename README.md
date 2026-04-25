@@ -48,6 +48,17 @@ video-game-success-analysis/
 - Game releases increased strongly from the mid-1990s, peaked around 2008–2009, and then declined in the dataset.
 - Nintendo has the highest total global sales among publishers in this dataset.
 
+## Sample Visualizations
+
+### Distribution of Global Sales (Log Scale)
+![Distribution of Global Sales](images/global_sales_distribution_log.png)
+
+### Total Global Sales by Genre
+![Total Global Sales by Genre](images/total_sales_by_genre.png)
+
+### Top 10 Platforms by Total Global Sales
+![Top 10 Platforms by Total Global Sales](images/top_platforms_sales.png)
+
 ## Limitations
 This dataset is historical and appears incomplete for years after 2016, so the findings should be interpreted as patterns within this dataset rather than a complete representation of the current video game industry.
 
