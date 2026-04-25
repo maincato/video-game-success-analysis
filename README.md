@@ -30,6 +30,7 @@ video-game-success-analysis/
 ├── data/
 │   └── README.md
 ├── images/
+│   └── relevant project visualizations
 └── notebooks/
     └── video_game_success_analysis.ipynb
 ```
