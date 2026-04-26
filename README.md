@@ -6,13 +6,17 @@ This project explores historical video game data to analyze how genre, platform,
 
 The goal is to identify patterns that help explain which games and categories perform best, and which factors are most associated with higher sales.
 
+## Full Notebook
+See the complete analysis here: [video_game_success_analysis.ipynb](notebooks/video_game_success_analysis.ipynb)
+
 ## Dataset
 The analysis uses the Kaggle dataset **Video Game Sales with Ratings**.
+
+Dataset link: [Video Game Sales with Ratings on Kaggle](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings/data)
 
 The raw dataset is **not included** in this repository. To run the notebook locally, download the dataset from the Kaggle page and place the CSV file inside the `data/` folder with the name:
 
 `video_game_sales_ratings.csv`
-
 ## Tools Used
 - Python
 - pandas
@@ -30,7 +34,7 @@ video-game-success-analysis/
 ├── data/
 │   └── README.md
 ├── images/
-│   └── relevant project visualizations
+│   └── saved analysis charts
 └── notebooks/
     └── video_game_success_analysis.ipynb
 ```
@@ -44,8 +48,8 @@ video-game-success-analysis/
 ## Key Findings
 - Global sales are highly skewed: most games sell relatively little, while a small number of blockbuster titles account for very high sales.
 - Action games generate the highest **total** sales, while Platform and Shooter games perform better in terms of **average** sales per game.
-- Critic scores show a **moderate positive** relationship with global sales.
-- User scores show a **weak positive** relationship with global sales.
+- Critic scores show a **moderate positive** relationship with global sales (**Spearman ≈ 0.39**).
+- User scores show a **weak positive** relationship with global sales (**Spearman ≈ 0.15**).
 - Game releases increased strongly from the mid-1990s, peaked around 2008–2009, and then declined in the dataset.
 - Nintendo has the highest total global sales among publishers in this dataset.
 
